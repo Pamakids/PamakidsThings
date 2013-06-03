@@ -1,4 +1,3 @@
-PamakidsThings
-==============
-
-Pamakids Things
+##该处主要有以下几点功能
+- ###各类文档集合
+- ###bug统一提交管理
