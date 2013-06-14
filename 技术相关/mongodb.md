@@ -11,6 +11,9 @@ db.collection.remove(`query`, `justOne`) <br> db.collection.remove()| 删除某�
 show collections | 查询所有表
 db.dropDatabase | 删除当前数据库
 db.getName() | 获取数据库名称
+db.collection.getIndexes() | 获取索引列表
+db.collection.dropIndex({"name":1}) | 删除索引
+db.collection.dropIndexes("*") | 删除所有索引
 
 Query
 ---
