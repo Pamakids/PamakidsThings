@@ -74,4 +74,9 @@ Merge别人的代码
 - git reset --hard commit_sha
 - git reset --hard HEAD~5 重置5个commit
 
+#### 将之前版本的文件还原出来 ####
+
+	git checkout 103542406bf3d3a541bf6c68a3e164216fb1035b  pipilu/libs/PS.swc
+
+
 

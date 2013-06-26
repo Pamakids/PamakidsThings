@@ -14,6 +14,7 @@ db.getName() | 获取数据库名称
 db.collection.getIndexes() | 获取索引列表
 db.collection.dropIndex({"name":1}) | 删除索引
 db.collection.dropIndexes("*") | 删除所有索引
+db.collection.insert({device_id:'test'}) | 插入数据
 
 Query
 ---
