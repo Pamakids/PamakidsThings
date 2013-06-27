@@ -21,7 +21,7 @@
  | g2 | 继续开始
  | g3 | 再玩一次
  | g4 | 下一页
-所有页 | content_time | 页面停留时间 | 从init开始计时到dispose的时间 | 每页兴趣
+所有页 | content_time&当前页 | 页面停留时间 | 从init开始计时到dispose的时间 | 每页兴趣
 引子-第一页<br>FinalCoundDown | 1 | 蓝魔鬼钓鱼 
  | 2 | 点击红魔鬼快速打字
  | 3 | 点击电脑后翻页
