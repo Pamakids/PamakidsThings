@@ -78,5 +78,6 @@ Merge别人的代码
 
 	git checkout 103542406bf3d3a541bf6c68a3e164216fb1035b  pipilu/libs/PS.swc
 
+git reset --soft/--hard commit_id //重置到某个版本
 
 
