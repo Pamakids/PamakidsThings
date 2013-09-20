@@ -80,4 +80,6 @@ Merge别人的代码
 
 git reset --soft/--hard commit_id //重置到某个版本
 
+git clean -df & git checkout -- .  //清除已修改的再重新检出最新版本
 
+git push origin :newfeature //删除远程库分支
