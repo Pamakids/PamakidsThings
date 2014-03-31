@@ -83,3 +83,7 @@ git reset --soft/--hard commit_id //重置到某个版本
 git clean -df & git checkout -- .  //清除已修改的再重新检出最新版本
 
 git push origin :newfeature //删除远程库分支
+
+git rm -r --cached . //添加ignore后不生效的处理方式 .是清除所有缓存，也可用只清楚某些路径下的文件
+
+git reset --soft "HEAD^" //撤销上次commit
